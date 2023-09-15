@@ -1,0 +1,51 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body{
+  background-color: black;
+}
+*/
+.responsive{
+  height: 600px;
+  width: 500px;
+}
+.line{
+  width: 500;
+}
+
+.css{
+  width: 390px;
+}
+
+
+/* .inner-container{
+  background-color: antiquewhite;
+  height: 500px;
+  width: 350px;
+}  */
+
+@media screen and (max-width : 551px) {
+  
+  .responsive{
+    height: 600px;
+
+    width: 300px;
+  }
+
+  .line{
+    width: 300;
+  }
+
+  .css{
+    width: 200px;
+  }
+  
+
+  
+}
+
+
+
